@@ -1,5 +1,5 @@
 
-# OOP ORIENTED IMPLEMTATION wp_nonce #
+# OOP ORIENTED IMPLEMETATION wp_nonce #
 
 
 This class as be made as a test, it's not to use in production environment.
@@ -176,8 +176,8 @@ Default: -1
 Return Values
 (boolean/integer) 
 Boolean false if the nonce is invalid. Otherwise, returns an integer with the value of:
-1 – if the nonce has been generated in the past 12 hours or less.
-2 – if the nonce was generated between 12 and 24 hours ago.
+1 â€“ if the nonce has been generated in the past 12 hours or less.
+2 â€“ if the nonce was generated between 12 and 24 hours ago.
 
 ### Example ###
 Verify an nonce created with $jmcNonce->Create():
